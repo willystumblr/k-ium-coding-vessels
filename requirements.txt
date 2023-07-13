@@ -1,0 +1,8 @@
+tensorflow
+tqdm
+keras
+numpy
+pandas
+pillow
+keras_self_attention
+scikit-learn

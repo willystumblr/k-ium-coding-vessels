@@ -1,0 +1,6 @@
+test/
+test_set/
+train_set/
+eda.ipynb
+__pycache__/
+kium-output/
