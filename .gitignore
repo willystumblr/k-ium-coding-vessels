@@ -4,3 +4,4 @@ train_set/
 eda.ipynb
 __pycache__/
 kium-output/
+.DS_Store
