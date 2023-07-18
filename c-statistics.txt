@@ -1,0 +1,4 @@
+AUROC of the provided model
+0.5958132045088567
+Accuracy for locations
+0.9619047619047619
