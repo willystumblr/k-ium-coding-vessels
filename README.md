@@ -10,8 +10,8 @@ pip install -r requirements.txt
 
 ## Evaluation
 
-`evaluate.py`에 있는 변수 설정 바꿔주기
+`main.py`에 있는 변수 설정 바꿔주기
 
 ```bash
-python evaluate.py
+python main.py
 ```
