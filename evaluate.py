@@ -19,7 +19,7 @@ from PIL import Image
 
 CSV_PATH = "./test_set" ####YOUR .CSV DIR HERE####
 CSV_FILENAME = "test.csv" ####YOUR .CSV DIR HERE####
-IMG_PATH = './test' ####YOUR TEST IMAGE FILES DIR HERE####
+IMG_PATH = './test_set' ####YOUR TEST IMAGE FILES DIR HERE####
 IMG_FILE_EXTENSION = "*.jpg" ####YOUR TEST IMAGE FILE EXTENSION HERE####
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s', datefmt='%m/%d/%Y %H:%M:%S',
@@ -115,7 +115,7 @@ if __name__=='__main__':
     
     ### Model prediction and Save output.csv ###
     logger.info("Yielding model prediction...")
-    pred = model.predict(test_img[:50], batch_size=batch_size)
+    pred = model.predict(test_img, batch_size=batch_size)
     
     cols = test.drop(['Index'], axis=1).columns
     # Set a threshold for converting probabilities to binary predictions
